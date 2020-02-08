@@ -1,0 +1,97 @@
+      #div_table_total
+      {
+        border: none;
+        display: table;
+        font-weight: bold;
+        width: 100%;
+      }
+      .div_table_total_row
+      {
+        width: 100%;
+        display: table-row;
+        font-size: 45px;
+      }
+      .div_table_total_cell
+      {
+        display: table-cell;
+        text-align: center;
+        width: 33%;
+      }
+      .div_table_list_header_row
+      {
+        width: 100%;
+        display: table-row;
+        font-weight: bold;
+        color: #EEEEEE;
+      }
+      .div_table_list_country_cell
+      {
+        display: table-cell;
+        color: #EEEEEE;
+        font-size: 40px;
+        text-align: left;
+        border-collapse: collapse;
+        white-space: nowrap;
+      }
+      .div_table_list_header_cell
+      {
+        display: table-cell;
+        color: #EEEEEE;
+        font-size: 40px;
+        text-align: left;
+        border-collapse: collapse;
+        background: #404040;
+      }
+      .div_table_list_confirmed_cell
+      {
+        display: table-cell;
+        color: #8888FF;
+        font-size: 40px;
+        text-align: right;
+      }
+      .div_table_list_confirmed_header_cell
+      {
+        display: table-cell;
+        color: #8888FF;
+        font-size: 40px;
+        text-align: right;
+        background: #404040;
+      }
+      .div_table_list_death_cell
+      {
+        display: table-cell;
+        color: #FF5555;
+        font-size: 40px;
+        text-align: right;
+      }
+      .div_table_list_death_header_cell
+      {
+        display: table-cell;
+        color: #FF5555;
+        font-size: 40px;
+        text-align: right;
+        background: #404040;
+      }
+      .div_table_list_recovered_cell
+      {
+        display: table-cell;
+        color: #22AA22;
+        font-size: 40px;
+        text-align: right;
+      }
+      .div_table_list_recovered_header_cell
+      {
+        display: table-cell;
+        color: #22AA22;
+        font-size: 40px;
+        text-align: right;
+        background: #404040;
+      }
+
+table {
+  width: 100%;
+}
+
+table > tbody > tr:nth-of-type(even) {
+  background: #404040;
+}
